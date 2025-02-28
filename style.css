@@ -1,0 +1,50 @@
+body {
+    background-color: aliceblue;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+#keyboard {
+    text-align: center;
+    margin: auto;
+    border: 2px solid;
+}
+
+/* Стилі для кнопок */
+#keyboard input[type="button"] {
+    padding: 5px; 
+    margin: 2px; 
+    border: 1px solid #ccc; 
+    cursor: pointer; 
+}
+
+#b1 { background-color: #f0f0f0; } 
+#b2 { background-color: #f0e68c; } 
+#b3 { background-color: #90ee90; } 
+#b4 { background-color: #add8e6; } 
+#b5 { background-color: #e0ffff; } 
+#b6 { background-color: #f08080; } 
+#b7 { background-color: #d3d3d3; } 
+#b8 { background-color: #eee8aa; } 
+#b9 { background-color: #afeeee; } 
+#b0 { background-color: #f5f5dc; } 
+#bs { background-color: #98fb98; } 
+
+/* Стилі для кнопок вибору діапазону та операції */
+table.center input[type="button"] {
+    padding: 5px 10px; /* Розмір кнопок */
+    margin: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #f0f8ff; 
+}
+
+/* Стилі для полів введення */
+input[type="text"] {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+}
